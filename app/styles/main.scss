@@ -1,0 +1,103 @@
+$icon-font-path: '../fonts/';
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.linha{
+  width: 100%;
+  display: block;
+  float: right;
+}
+
+.colunas-4{
+  margin-bottom: 12px;;
+}
+
+@media (min-width: 1230px){
+  .colunas-4 {
+    width: 24%;
+    float: left;
+    margin-right: 1%;
+  }
+}
+
+@media (min-width: 860px) and (max-width: 1230px){
+  #ouvidoria-alagoas{
+    background-size: 60% !important;
+  }
+}
+
+.banner-info{
+  background-image: url('/images/i-icon.png');
+  background-position: 5px 50%;
+  background-repeat: no-repeat;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 85px;
+}
+
+.p-banner{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'Open Sans',Helvetica,Arial,Sans-Serif;
+  line-height: 18px;
+  letter-spacing: 1px;
+}
+
+.titulo-banner{
+  font-family: 'Open Sans',Helvetica,Arial,Sans-Serif;
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.a-banner{
+  text-decoration: none;
+}
+
+.banner-info .info{
+  vertical-align: -webkit-baseline-middle;
+}
+
+#sic{
+  background-color: #ffbb29;
+}
+
+#sic .info{
+  color: white;
+}
+
+#informacoes-publicas{
+  background-color: #fff1a6;
+}
+
+#informacoes-publicas .info{
+  color: #00790d;
+}
+
+#portal{
+  background-color: #fff1a6;
+}
+
+#portal .info{
+  color: #00790d;
+}
+
+#ouvidoria-alagoas{
+  background-image: url('/images/ouvidoria-alagoas.png');
+  background-position: 5px 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #fbf1f0;
+  padding-left: 130px;
+}
